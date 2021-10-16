@@ -1,0 +1,20 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "a crud api with typescript ",
+  "main": "./dist/server.js",
+  "scripts": {
+    "test": "ts-node ./lib/server.ts",
+    "dev": "tsc && nodemon ./dist/server.js",
+    "prod": "tsc && nodemon ./dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.8",
+    "nodemon": "^2.0.13"
+  }
+}
